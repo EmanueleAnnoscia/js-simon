@@ -75,7 +75,7 @@ function handleForm(event){
     scoreParElem.innerText = `Hai indovinato ${score} numeri!`;
 
     // quando clicco il bottone mi restituisce il punteggio
-    scoreParElem.classList.remove("d-none");
+    // scoreParElem.classList.add("d-none");
 
     // resetto tutti i campi del form
      formElem.reset();
