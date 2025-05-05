@@ -56,8 +56,10 @@ function handleForm(event){
         if(isNaN (val) || val <= 0) {
             alert("Inserisci un numero valido (un numero intero positivo)");
             return;
+        }else if (!numeroUtente.includes(val)){
+            numeroUtente.push(val);
         }
-        numeroUtente.push(val);
+        
     }
 
     // eseguo la verifica dei numeri inseriti sui numeri generati
